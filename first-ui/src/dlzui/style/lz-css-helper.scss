@@ -1,0 +1,8 @@
+/*
+ * Dlz-UI 组件库提供的一些样式助手函数
+ */
+.lz-disable {
+  opacity: .5;
+  cursor:not-allowed;
+  pointer-events:none;
+}
