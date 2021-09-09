@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/react/17.0.2/umd/react.development.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/react-dom/17.0.2/umd/react-dom.development.min.js"></script>
+  <script src="./libs/babel.min.js"></script>
+</head>
+<body>
+
+  <div id="test"></div>
+
+  <script type="text/babel">
+    class MyComponent extends React.Component {
+      render() {
+        return (
+            <h1>Hello</h1>
+        )
+      }
+    }
+
+    ReactDOM.render(<MyComponent/>, document.getElementById('test'))
+  </script>
+</body>
+</html>
